@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=2, user-scalable=no"
+    />
+    <meta
+      name="description"
+      content="Semantic-UI-Forest, collection of design, themes and templates for Semantic-UI."
+    />
+    <meta name="keywords" content="Semantic-UI, Theme, Design, Template" />
+    <meta name="author" content="PPType" />
+    <meta name="theme-color" content="#ffffff" />
+    <title>学生のためのフリースペース</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+    />
+    <style type="text/css">
+      body {
+        -webkit-font-smoothing: antialiased;
+        -moz-font-smoothing: grayscale;
+      }
+      .ui.inverted.segment {
+        background-color: #808080;
+      }
+      .ui.vertical.segment:not(.inverted) {
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+      }
+      .six.wide.column img {
+        width: 100%;
+      }
+      .ui.borderless.inverted.menu {
+        background-color: #2f2f2f;
+        border-radius: 4px;
+        flex-wrap: wrap;
+      }
+      .ui.borderless.inverted.menu .active.item {
+        background-color: black;
+      }
+      span.sub {
+        color: rgba(0, 0, 0, 0.6);
+      }
+      .ten.wide.column h1 {
+        font-size: 3rem;
+      }
+      .ten.wide.column p {
+        font-size: 1.5rem;
+      }
+      p code {
+        color: #c7254e;
+        background-color: #f9f2f4;
+        border-radius: 4px;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+      }
+      .ui.tablet.computer.only.padded.grid {
+        position: absolute;
+        z-index: 8;
+        width: 100%;
+        top: 1rem;
+      }
+      .ui.mobile.only.grid .ui.menu .ui.vertical.menu {
+        display: none;
+      }
+      .ui.mobile.only.grid .ui.vertical.menu .dropdown.icon {
+        float: unset;
+      }
+      .ui.mobile.only.grid .ui.vertical.menu .dropdown.icon:before {
+        content: "\f0d7";
+      }
+      .ui.mobile.only.grid .ui.vertical.menu .ui.dropdown.item .menu {
+        position: static;
+        width: 100%;
+        background-color: unset;
+        border: none;
+      }
+      .ui.mobile.only.grid .ui.vertical.menu .ui.dropdown.item {
+        background-color: rgb(47, 47, 47);
+      }
+      .ui.mobile.only.grid .ui.vertical.menu .ui.dropdown.item .menu {
+        margin-top: 6px;
+      }
+      .ui.mobile.only.grid .ui.vertical.menu .ui.dropdown.item .menu .header,
+      .ui.mobile.only.grid .ui.vertical.menu .ui.dropdown.item .menu .item {
+        color: rgba(255, 255, 255, 0.9) !important;
+      }
+      .slide .ui.inverted.vertical.segment {
+        padding-top: 16rem;
+        padding-bottom: 4rem;
+        height: 600px;
+      }
+      .slide .ui.text.container {
+        max-width: 70%;
+      }
+      .slick-dotted.slick-slider {
+        margin-bottom: 0;
+      }
+      .slick-prev.slick-arrow {
+        padding-left: 8rem;
+        padding-right: calc(8rem + 20px);
+        display: inline-block;
+        height: 100%;
+        z-index: 32;
+        background: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0.5) 0%,
+          rgba(0, 0, 0, 0.0001) 100%
+        );
+      }
+      .slick-next.slick-arrow {
+        padding-left: 8rem;
+        padding-right: calc(8rem + 20px);
+        display: inline-block;
+        height: 100%;
+        z-index: 32;
+        background: linear-gradient(
+          to left,
+          rgba(0, 0, 0, 0.5) 0%,
+          rgba(0, 0, 0, 0.0001) 100%
+        );
+      }
+      @media only screen and (max-width: 767px) {
+        .slick-prev.slick-arrow {
+          padding-left: 4rem;
+          padding-right: calc(4rem + 20px);
+        }
+        .slick-next.slick-arrow {
+          padding-left: 4rem;
+          padding-right: calc(4rem + 20px);
+        }
+      }
+      .slick-dots {
+        bottom: 15px;
+      }
+      .slide .ui.segment h1 {
+        font-size: 3rem;
+      }
+      .slide .ui.segment p {
+        font-size: 1.5rem;
+      }
+
+      .kuwasiku{
+        color: #fff;
+
+      }
+
+    </style>
+  </head>
+
+  <body id="root">
+    <div class="ui tablet computer only padded grid">
+      <div class="ui container">
+        <div class="ui inverted borderless huge menu">
+          <a class="header item">フリースペース</a>
+          <a class="active item" href="index.html">Home</a>
+           <a class="item" href="https://www.starbucks.co.jp/" target="_blank">内装</a>
+          <a class="item" href="https://www.regus-office.jp/coworking-spaces/coworking_list/coworking_tokyo/?gclid=CjwKCAjw36DpBRAYEiwAmVVDMAZCWDcfBxpwxvAIThQGe1TJRn979obug5GEaYJgihSsj-D0xZFakhoCyukQAvD_BwE&gclsrc=aw.ds" target="_blank">できること</a>
+          <div class="ui dropdown item">
+            その他<i class="dropdown icon"></i>
+            <div class="menu">
+              <a class="item">ご案内 </a> <a class="item" href="index.html">トップページ</a>
+              <a class="item" href="#setubi">概要  </a>
+              <div class="ui divider"></div>
+              <div class="header">連絡</div>
+              <a class="item" href="mailto:takuto19980322@icloud.com"> メール</a>
+              <a class="item" href="https://www.google.com/maps/?hl=ja" target="_blank">アクセス方法 </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="ui mobile only grid">
+      <div class="ui top fixed inverted borderless huge menu">
+        <a class="header item">フリースペース</a>
+        <div class="right menu">
+          <div class="item">
+            <button class="ui icon toggle basic inverted button">
+              <i class="content icon"></i>
+            </button>
+          </div>
+        </div>
+        <div class="ui vertical borderless inverted fluid menu">
+          <a class="active item">Home</a> <a class="item">内装</a>
+          <a class="item">できること</a>
+          <div class="ui dropdown item">
+            Dropdown <i class="dropdown icon"></i>
+            <div class="menu">
+              <a class="item"> ご案内 </a> <a class="item"> トップページ</a>
+              <a class="item" href="#setubi"> 概要 </a>
+              <div class="ui divider"></div>
+              <div class="header">連絡</div>
+              <a class="item"> メール </a>
+              <a class="item"> アクセス方法 </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="slide">
+      <div class="ui inverted vertical center aligned segment">
+        <div class="ui active text container">
+          <h1 class="ui inverted header">学生の集まるフリースペース
+          </h1>
+          <p>誰かとの待ち合わせや、ちょっとした時間つぶしにも最適！</p>
+          <div class="ui huge primary button"><a class="kuwasiku" href="index.html">詳しく見る</a></div>
+        </div>
+      </div>
+      <div class="ui inverted vertical center aligned segment">
+        <div class="ui active text container">
+          <h1 class="ui inverted header">愛媛のお得なお店紹介</h1>
+          <p>フリースペースを利用してくれている人に嬉しい、お得情報をお届けします！</p>
+          <div class="ui huge primary button"><a class="kuwasiku" href="index.html">詳しく見る</a></div>
+        </div>
+      </div>
+      <div class="ui inverted vertical center aligned segment">
+        <div class="ui active text container">
+          <h1 class="ui inverted header">就職に役立つ情報</h1>
+          <p>将来に不安がある学生は少なくないと思います。そんな皆さんの力になる情報をお届けします！</p>
+          <div class="ui huge primary button"><a class="kuwasiku" href="index.html">詳しく見る</a></div>
+        </div>
+      </div>
+    </div>
+    <div class="ui container">
+      <div class="ui vertical segment">
+        <div class="ui three column stackable center aligned grid container">
+          <div class="column">
+            <img
+              class="ui centered small circular image"
+              src="img/original.jpg"
+            />
+            <h1 class="ui header">フリースペースの外観  </h1>
+            <p>フリースペースの外観は、誰もが気をひくようなカフェのようなおしゃれな空間となっています。</p>
+            <div class="ui basic button">詳しく見る &raquo;</div>
+          </div>
+          <div class="column">
+            <img
+              class="ui centered small circular image"
+              src="img/group_student.png"
+            />
+            <h1 class="ui header">将来に役立つ情報</h1>
+            <p>様々な招来に役立つ情報を掲載</p>
+            <div class="ui basic button">詳しく見る &raquo;</div>
+          </div>
+          <div class="column">
+            <img
+              class="ui centered small circular image"
+              src="img/SG010_1.jpg"
+            />
+            <h1 class="ui header">地域との結びつき </h1>
+            <p>フリースペースでは、地域のお店との繋がりを大切にするため様々なお店の情報をあります！ </p>
+            <div class="ui basic button">詳しく見る&raquo;</div>
+          </div>
+        </div>
+      </div>
+      <div class="ui vertical segment">
+        <div class="ui stackable grid">
+          <div class="ten wide column">
+            <h1 class="ui header" id="setubi" >
+              設備
+            </h1>
+            <p>フリースペースにはふとした瞬間に使えるアイテムがあります。</p>
+          </div>
+          <div class="six wide right aligned column">
+            <img
+              class="ui image"
+              src="img/download.jpg"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="ui vertical segment">
+        <div class="ui stackable grid">
+          <div class="six wide column">
+            <img
+              class="ui image"
+              src="img/download-1.jpg"
+            />
+          </div>
+          <div class="ten wide column">
+            <h1 class="ui header">
+          企業説明会
+            </h1>
+            <p>
+              企業説明会やってます！
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="ui vertical segment">
+        <div class="ui stackable grid">
+          <div class="ten wide column">
+            <h1 class="ui header">
+            学生限定だからできること
+            </h1>
+            <p>
+            様々なお店で使える学割を紹介します！
+            </p>
+          </div>
+          <div class="six wide right aligned column">
+            <img
+              class="ui image"
+              src="img/download-2.jpg"
+            />
+          </div>
+        </div>
+      </div>
+      <footer class="ui vertical segment">
+        <div class="ui two column grid">
+          <div class="column">
+            &copy; 2017 Company, Inc. · <a href="#root">Privacy</a> ·
+            <a href="#root">Terms</a>
+          </div>
+          <div class="right aligned column">
+            <a href="#root">Back to top</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $(".ui.toggle.button").click(function() {
+          $(".mobile.only.grid .ui.vertical.menu").toggle(100);
+        });
+        $(".ui.dropdown").dropdown();
+        $(".slide").slick({
+          autoplay: true,
+          dots: true,
+          speed: 500
+        });
+      });
+    </script>
+  </body>
+</html>
